@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+     <CheckBoxPreference
+  		android:key="showhide"
+     	android:title="Hide Freaky Clock"
+     	android:summary="clock show hide"
+     	android:defaultValue="false" />
+      <CheckBoxPreference
+  		android:key="hideampm"
+     	android:title="Hide Freaky Am/Pm"
+     	android:summary="am/pm show hide"
+     	android:defaultValue="false" />
+      <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="clockcolor"
+        android:title="Color Freaky Clock"
+        android:summary="clock color"
+        android:defaultValue="#ffffff" 
+        alphaSlider="true" /> 
+      <net.margaritov.preference.colorpicker.ColorPickerPreference
+    android:key="statusbarcolor"
+    android:title="Statusbar Freaky color"
+    android:summary="Statusbar color"
+    android:defaultValue="#000000" 
+    alphaSlider="true" /> 
+<!--     <Preference android:title="Test It Here Before Implementing" android:summary="click here"> -->
+<!--         <intent android:targetPackage="com.argha.freakyclock" android:action="android.intent.action.MAIN" android:targetClass="com.argha.freakyclock.Testing" /> -->
+<!--     </Preference>            -->
+    <Preference android:title="Developer-: ARGHA_DAS" android:summary="Find me Here" android:key="arghaxda" />
+</PreferenceScreen>
